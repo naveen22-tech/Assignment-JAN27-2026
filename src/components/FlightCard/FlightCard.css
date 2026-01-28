@@ -1,0 +1,49 @@
+.flight-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.airline-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.airline-info img {
+  width: 45px;
+}
+
+.time-info {
+  text-align: center;
+}
+
+.big {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.duration {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.price-info {
+  text-align: right;
+}
+
+.amount {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.rules {
+  font-size: 12px;
+  color: #6b7280;
+}

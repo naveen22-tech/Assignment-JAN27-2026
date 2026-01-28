@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f1f5f9;
+}
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 230px;
+  padding: 25px;
+  width: 100%;
+  background-color: antiquewhite;
+}

@@ -1,0 +1,28 @@
+.header-tabs {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.header-tabs button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header-tabs button.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+.header-tabs button:hover {
+  background: #e5e7eb;
+}
+.header-tabs button.in-active {
+  background: #e5e7eb;
+  color: #374151;
+  border-color: #e5e7eb;
+}

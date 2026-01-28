@@ -1,0 +1,26 @@
+.package-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.package-tabs button {
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.package-tabs button.active {
+  background: #1d4ed8;
+  color: white;
+  border-color: #1d4ed8;
+}
+
+.package-tabs button.in-active {
+  background: #e5e7eb;
+  color: #374151;
+  border-color: #e5e7eb;
+}
